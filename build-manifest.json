@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     {
       "path": "app/app.js",
-      "bytes": 21624,
-      "sha256": "065b5630ea6145b64307bce39e4611e16f6d0662b9255281a8cf96dd42158e5f"
+      "bytes": 22112,
+      "sha256": "004747b1e76d09dfbdb6c98182d806b3edbe3c5e45a4a964157fc2f568fe2220"
     },
     {
       "path": "app/assets/icon-192.png",
@@ -28,8 +28,8 @@
     },
     {
       "path": "app/index.html",
-      "bytes": 5831,
-      "sha256": "83c62a08c30299ec1c546183dd2bc28e6597b28de58ff02f1cd5455a284e861f"
+      "bytes": 5852,
+      "sha256": "b677bd75585c64f3e98ab0e5d81b72e9e2af6743a61e7b001fd6e62f29891ebd"
     },
     {
       "path": "app/manifest.webmanifest",
@@ -43,8 +43,8 @@
     },
     {
       "path": "app/sw.js",
-      "bytes": 1205,
-      "sha256": "872bf6393018c3ad94e7e5df58b1ffe56cdb20751b8c6ea11c3b77c0e2124235"
+      "bytes": 1225,
+      "sha256": "0d42ffc53400b1ae3cdc7273ca3c7483f8f7a2b5daca4a75588c400da45e79bd"
     },
     {
       "path": "assets/icons-comparison.png",
@@ -63,8 +63,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 6078,
-      "sha256": "9f8349f984bbe568f29def291c43cfd0d9f99627e471191ff8538b669047477a"
+      "bytes": 6087,
+      "sha256": "492384404b20050d5c72d7ae456b1896402cac991eacaf5cec91f248fe189447"
     },
     {
       "path": "landing.css",
@@ -73,8 +73,8 @@
     },
     {
       "path": "privacy.html",
-      "bytes": 1848,
-      "sha256": "7b246c2f7deaa3641a282d76aebe013a32d52fce324e768891bd72b7ab3b260f"
+      "bytes": 1849,
+      "sha256": "d6de3d2d82dcc435ad644ad1ed6c391ad21fba84a2b260033dc7950a8fb91509"
     },
     {
       "path": "screenshots/01-today.jpg",

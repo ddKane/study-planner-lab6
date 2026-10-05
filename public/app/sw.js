@@ -1,4 +1,4 @@
-const CACHE = 'study-planner-v1.0.0';
+const CACHE = 'study-planner-v1.0.1';
 const FILES = ['./', './index.html', './styles.css', './app.js', './domain.mjs', './manifest.webmanifest', './assets/icon-192.png', './assets/icon-512.png', './assets/icon-maskable-512.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES))));
 self.addEventListener('activate', event => event.waitUntil((async () => {

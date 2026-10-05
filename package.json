@@ -1,6 +1,6 @@
 {
   "name": "study-planner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Устанавливаемый учебный планер с локальным хранением данных",
   "type": "module",

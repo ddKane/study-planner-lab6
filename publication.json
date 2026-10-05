@@ -1,10 +1,12 @@
 {
   "repository": "https://github.com/ddKane/study-planner-lab6",
-  "expected_urls": {
+  "status": "published_and_browser_verified",
+  "survey": "https://docs.google.com/forms/d/e/1FAIpQLSdFgoZtwk1cscr_a_ED8lYKxXO9--pZwq2vXUy78XRCmL_cvQ/viewform",
+  "urls": {
     "landing": "https://ddkane.github.io/study-planner-lab6/",
     "app": "https://ddkane.github.io/study-planner-lab6/app/"
   },
-  "status": "prepared",
-  "survey": "https://docs.google.com/forms/d/e/1FAIpQLSdFgoZtwk1cscr_a_ED8lYKxXO9--pZwq2vXUy78XRCmL_cvQ/viewform",
-  "survey_editor": "https://docs.google.com/forms/d/1mecYrAa05gDxnz3rvUC66DaVQqZnhX6a-BQJF2XgwQg/edit"
+  "release": "https://github.com/ddKane/study-planner-lab6/releases/tag/v1.0.0",
+  "build_run": "https://github.com/ddKane/study-planner-lab6/actions/runs/37330715484",
+  "verified_on": "2026-10-05"
 }

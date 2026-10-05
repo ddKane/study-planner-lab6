@@ -186,10 +186,26 @@ window.addEventListener('storage',event=>{if(event.key===STORAGE_KEY){try{tasks=
 window.addEventListener('pageshow',()=>render());
 if('serviceWorker' in navigator){
   let refreshing=false;
-  navigator.serviceWorker.addEventListener('controllerchange',()=>{if(refreshing)return;refreshing=true;updateInstallHelp();});
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{$('#update-app')?.remove();if(refreshing)return;refreshing=true;updateInstallHelp();});
   navigator.serviceWorker.register('./sw.js').then(registration=>{
     swRegistration=registration;
-    const offerUpdate=()=>{if(!registration.waiting || $('#update-app'))return;const b=document.createElement('button');b.id='update-app';b.className='update-button';b.textContent='Обновить приложение';b.addEventListener('click',async()=>{if($('#task-dialog').open){toast('Сохраните или закройте задание перед обновлением.');return;}if(await confirmAction('Обновить приложение? Сохранённые задания останутся на устройстве.')){navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload(),{once:true});registration.waiting?.postMessage('SKIP_WAITING');}});$('.top-actions').prepend(b);};
+    const offerUpdate=()=>{
+      if(!registration.waiting){$('#update-app')?.remove();return;}
+      if(!navigator.serviceWorker.controller || $('#update-app'))return;
+      const b=document.createElement('button');b.id='update-app';b.className='update-button';b.textContent='Обновить приложение';
+      b.addEventListener('click',async()=>{
+        if(!registration.waiting){b.remove();toast('Установлена актуальная версия.');return;}
+        if($('#task-dialog').open){toast('Сохраните или закройте задание перед обновлением.');return;}
+        if(await confirmAction('Обновить приложение? Сохранённые задания останутся на устройстве.')){
+          const waiting=registration.waiting;
+          if(!waiting){b.remove();toast('Установлена актуальная версия.');return;}
+          b.disabled=true;
+          navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload(),{once:true});
+          waiting.postMessage('SKIP_WAITING');
+        }
+      });
+      $('.top-actions').prepend(b);
+    };
     offerUpdate();registration.addEventListener('updatefound',()=>{registration.installing?.addEventListener('statechange',offerUpdate);});
     navigator.serviceWorker.ready.then(updateInstallHelp);
   }).catch(()=>toast('Офлайн-режим недоступен. Откройте приложение по HTTPS или через локальный сервер.'));
