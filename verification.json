@@ -46,6 +46,10 @@
     {
       "scenario": "No horizontal overflow at observed CSS viewport 525px",
       "result": "passed"
+    },
+    {
+      "scenario": "Upgrade from 1.0.0 to 1.0.1 retains all seven demo tasks and removes update button",
+      "result": "passed"
     }
   ],
   "limitations": [

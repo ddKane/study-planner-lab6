@@ -2,6 +2,13 @@
 
 Устанавливаемое PWA для учебных заданий, сроков и прогресса. Лабораторная работа 6.
 
+- Приложение: https://ddkane.github.io/study-planner-lab6/app/
+- Лендинг: https://ddkane.github.io/study-planner-lab6/
+- Сборка: https://github.com/ddKane/study-planner-lab6/releases/tag/v1.0.1
+- Опрос: https://docs.google.com/forms/d/e/1FAIpQLSdFgoZtwk1cscr_a_ED8lYKxXO9--pZwq2vXUy78XRCmL_cvQ/viewform
+
+Публикация проверена 5 октября 2026 года. Установка на физических телефонах, отзывы 2–3 тестировщиков и минимум 10 настоящих ответов ещё ожидаются. Иконка A применяется предварительно.
+
 ## Возможности
 
 - Добавление, редактирование, выполнение и удаление заданий.

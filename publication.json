@@ -6,7 +6,8 @@
     "landing": "https://ddkane.github.io/study-planner-lab6/",
     "app": "https://ddkane.github.io/study-planner-lab6/app/"
   },
-  "release": "https://github.com/ddKane/study-planner-lab6/releases/tag/v1.0.0",
+  "release": "https://github.com/ddKane/study-planner-lab6/releases/tag/v1.0.1",
   "build_run": "https://github.com/ddKane/study-planner-lab6/actions/runs/37330715484",
-  "verified_on": "2026-10-05"
+  "verified_on": "2026-10-05",
+  "version": "1.0.1"
 }
