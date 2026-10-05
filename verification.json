@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-05",
+  "environment": "Native Windows; Codex in-app Chromium browser",
+  "automated": {
+    "command": "node --test tests/domain.test.mjs",
+    "passed": 6,
+    "failed": 0
+  },
+  "browser_checks": [
+    {
+      "scenario": "Add task",
+      "result": "passed"
+    },
+    {
+      "scenario": "Reload retains saved task",
+      "result": "passed"
+    },
+    {
+      "scenario": "Edit title and note",
+      "result": "passed"
+    },
+    {
+      "scenario": "HTML markup in notes is escaped",
+      "result": "passed"
+    },
+    {
+      "scenario": "Complete task and completed filter",
+      "result": "passed"
+    },
+    {
+      "scenario": "Search",
+      "result": "passed"
+    },
+    {
+      "scenario": "Cancel delete then confirm delete",
+      "result": "passed"
+    },
+    {
+      "scenario": "Import valid JSON after confirmation",
+      "result": "passed"
+    },
+    {
+      "scenario": "Cached reload and navigation while local HTTP server is stopped",
+      "result": "passed"
+    },
+    {
+      "scenario": "No horizontal overflow at observed CSS viewport 525px",
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "Physical Android installation not yet evidenced",
+    "Two or three real-device testers not yet evidenced",
+    "At least ten genuine survey responses not yet collected",
+    "Download event could not be captured by the in-app browser; JSON export requires a regular-browser check",
+    "Requested 320px and 360px viewport was clamped by browser surface to 525 CSS px"
+  ],
+  "survey": {
+    "responses_verified": 0,
+    "winner": null,
+    "current_icon": "A",
+    "status": "Provisional icon before real survey"
+  }
+}

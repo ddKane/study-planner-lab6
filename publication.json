@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/ddKane/study-planner-lab6",
+  "expected_urls": {
+    "landing": "https://ddkane.github.io/study-planner-lab6/",
+    "app": "https://ddkane.github.io/study-planner-lab6/app/"
+  },
+  "status": "prepared",
+  "survey": "https://docs.google.com/forms/d/e/1FAIpQLSdFgoZtwk1cscr_a_ED8lYKxXO9--pZwq2vXUy78XRCmL_cvQ/viewform",
+  "survey_editor": "https://docs.google.com/forms/d/1mecYrAa05gDxnz3rvUC66DaVQqZnhX6a-BQJF2XgwQg/edit"
+}

@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "app/app.js",
+      "bytes": 21624,
+      "sha256": "065b5630ea6145b64307bce39e4611e16f6d0662b9255281a8cf96dd42158e5f"
+    },
+    {
+      "path": "app/assets/icon-192.png",
+      "bytes": 4240,
+      "sha256": "bacee43882ea2a220aa772adec7def60e8db6066a7e8058134e8641551a2e902"
+    },
+    {
+      "path": "app/assets/icon-512.png",
+      "bytes": 11471,
+      "sha256": "95e89c2f6e7144b53c4792b05ca92079bcc7e56a2d74b99182f3cde1f9878acb"
+    },
+    {
+      "path": "app/assets/icon-maskable-512.png",
+      "bytes": 11471,
+      "sha256": "95e89c2f6e7144b53c4792b05ca92079bcc7e56a2d74b99182f3cde1f9878acb"
+    },
+    {
+      "path": "app/domain.mjs",
+      "bytes": 5087,
+      "sha256": "f618dc5d096de17a1da80e5afe3d978443c3f653fe08e9ff2d562c597c80c5c9"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 5831,
+      "sha256": "83c62a08c30299ec1c546183dd2bc28e6597b28de58ff02f1cd5455a284e861f"
+    },
+    {
+      "path": "app/manifest.webmanifest",
+      "bytes": 808,
+      "sha256": "b4230f1ecfbc6241f9d03e92cfc24ad6df0dcf27ebd09ded311537102e035cbe"
+    },
+    {
+      "path": "app/styles.css",
+      "bytes": 15171,
+      "sha256": "31692bdd55e9cd986efcb0714582e0ff7be3ec5d3dc48d61bf21aa8467e5015c"
+    },
+    {
+      "path": "app/sw.js",
+      "bytes": 1205,
+      "sha256": "872bf6393018c3ad94e7e5df58b1ffe56cdb20751b8c6ea11c3b77c0e2124235"
+    },
+    {
+      "path": "assets/icons-comparison.png",
+      "bytes": 30366,
+      "sha256": "9cac4d7024c6b650d6ca65e1f18de7e067be523f2527ea5aa5893b3c04f08ef9"
+    },
+    {
+      "path": "assets/qr-app.png",
+      "bytes": 866,
+      "sha256": "1d77cc43d837adf697921a524e0c4d8dacb8fa69a08d1ff3d0a5c70ad74ba71e"
+    },
+    {
+      "path": "assets/qr-landing.png",
+      "bytes": 889,
+      "sha256": "2a03c44849668da6f2921ca66d1e06df9e9b6fe25f48f2d9d4889819c52a8ea3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6078,
+      "sha256": "9f8349f984bbe568f29def291c43cfd0d9f99627e471191ff8538b669047477a"
+    },
+    {
+      "path": "landing.css",
+      "bytes": 5522,
+      "sha256": "1a40de05c57d351963192b099540529d68dd934a94490b0ca9f5701ca4fdbc71"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 1848,
+      "sha256": "7b246c2f7deaa3641a282d76aebe013a32d52fce324e768891bd72b7ab3b260f"
+    },
+    {
+      "path": "screenshots/01-today.jpg",
+      "bytes": 44124,
+      "sha256": "bd1a7c1e75a206a480c3cef526249136cc0d01ae7b9666f039f34d9a80d16269"
+    },
+    {
+      "path": "screenshots/01-today.png",
+      "bytes": 211516,
+      "sha256": "0312aa95d93e08fa3c04f0f5e32d5f25d2fa8f90c489175b8ca41fc108f84465"
+    },
+    {
+      "path": "screenshots/02-tasks.jpg",
+      "bytes": 43008,
+      "sha256": "eb3b1350f634a089ae9905409953c7b2e51c041e81ee408d06fb63fceece8735"
+    },
+    {
+      "path": "screenshots/02-tasks.png",
+      "bytes": 196837,
+      "sha256": "af47606d52e97e1777089cfe3e9ec94ce16e298a84bf0913dd10aefc3b14556c"
+    },
+    {
+      "path": "screenshots/03-subjects.jpg",
+      "bytes": 28221,
+      "sha256": "0956dca6184c56ba818263e6d5d0f7dc1b9b40a6905dc5640dfe936eaf28850d"
+    },
+    {
+      "path": "screenshots/03-subjects.png",
+      "bytes": 130649,
+      "sha256": "d23655ac0fc84b84a67c2b8aa8a617a968bbde041874dc94a2aef74c9526e928"
+    },
+    {
+      "path": "screenshots/04-progress.jpg",
+      "bytes": 38485,
+      "sha256": "ad79ebae8dd147a3e6daf353c0033205e796f3ed9d446e8436f10582f715c09a"
+    },
+    {
+      "path": "screenshots/04-progress.png",
+      "bytes": 164663,
+      "sha256": "4aad6ee5a0d351a9c58d3fd88939a1774d6518f8f322ea828978452cdfa91a04"
+    },
+    {
+      "path": "screenshots/05-add-task.jpg",
+      "bytes": 32649,
+      "sha256": "704dcadd624c0c2203ed3671237648d2c73da2a491a2eff527ae7ffe1a034fd1"
+    },
+    {
+      "path": "screenshots/05-add-task.png",
+      "bytes": 127926,
+      "sha256": "81ed39d4a34a2c9b99668b8718cc037dcd75a4e93a1ce248c9181c69769592e9"
+    },
+    {
+      "path": "survey/index.html",
+      "bytes": 1654,
+      "sha256": "919e9348c58ca966e4f12fd4982aec91a900550f0f44a41b1e2e9e5b90180f00"
+    }
+  ]
+}
